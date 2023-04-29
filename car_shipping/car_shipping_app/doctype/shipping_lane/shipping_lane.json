@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:lane_name",
+ "creation": "2023-03-28 01:09:54.136770",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lane_name",
+  "column_break_x9ovs",
+  "lane_code",
+  "section_break_mnfsd",
+  "from",
+  "to"
+ ],
+ "fields": [
+  {
+   "fieldname": "lane_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lane Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_x9ovs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lane_code",
+   "fieldtype": "Data",
+   "label": "Lane Code"
+  },
+  {
+   "fieldname": "section_break_mnfsd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Link",
+   "label": "To",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Link",
+   "label": "From",
+   "options": "Port"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 01:11:53.620114",
+ "modified_by": "Administrator",
+ "module": "Car Shipping app",
+ "name": "Shipping Lane",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "lane_code,from,to",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "lane_name"
+}

@@ -1,0 +1,76 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"CtUol1dANG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Speed Shipping</span>\",\"col\":12}},{\"id\":\"QbKYRMv1r6\",\"type\":\"card\",\"data\":{\"card_name\":\"Initialization\",\"col\":4}}]",
+ "creation": "2023-03-28 00:03:39.487237",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Speed Shipping",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Initialization",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Territory",
+   "link_count": 0,
+   "link_to": "Territory",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Port",
+   "link_count": 0,
+   "link_to": "Port",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Containers",
+   "link_count": 0,
+   "link_to": "Containers",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Lane",
+   "link_count": 0,
+   "link_to": "Shipping Lane",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-03-28 01:13:54.567171",
+ "modified_by": "Administrator",
+ "module": "Car Shipping app",
+ "name": "Speed Shipping",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Speed Shipping"
+}
